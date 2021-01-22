@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>仰望星空的博客</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-01-20T17:06:18.638Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Zero-DN</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何用hexo搭建个人网站</title>
+    <link href="http://example.com/2021/01/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
+    <id>http://example.com/2021/01/20/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</id>
+    <published>2021-01-20T07:09:45.000Z</published>
+    <updated>2021-01-20T17:06:18.638Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="需要安装的东西"><a href="#需要安装的东西" class="headerlink" title="需要安装的东西"></a>需要安装的东西</h2><p>git, node.js, hexo, code</p><hr><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><p>安装Git<br>安装Node.js<br>安装Hexo<br>GitHub创建个人仓库<br>生成SSH添加到GitHub<br>将hexo部署到GitHub<br>设置个人域名<br>发布文章</p><h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><p>安装好node.js，用win+r输入cmd进入命令行使用代码<br>node -v    #查看node版本<br>npm -v    #查看npm版本<br>然后安装淘宝的源<br>npm install -g cnpm –registry=<a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a>    #安装淘宝的cnpm 管理器<br>cnpm -v    #查看cnpm版本<br>cnpm install -g hexo-cli    #使用cnpm安装hexo框架也可以用npm<br>hexo -v #查看hexo版本，验证是否安装成功<br>然后建立文件夹blog,我是直接在E盘新建文件夹，也可以用代码<br>mkdir blog    #创建blog目录<br>建立好文件夹以后不要怕错，错了把文件夹删了重来就是了<br>然后在blog文件夹里右键选择git bash here,使用代码生成博客<br>hexo init     #生成博客 初始化博客<br>安装完成以后blog目录会生成许多文件可以用代码查看<br>ls -l  #查看目录下的文件<br>然后启动博客<br>hexo s #启动本地博客服务,hexo s指hexo server<br>启动以后会生成一个localhost:4000的链接，可以用浏览器访问<br>然后用Ctrl+C断开链接<br><a href="http://localhost:4000/">http://localhost:4000/</a>    #本地访问地址<br>hexo s一般用来启动博客预览<br>新建博客文章，也可以在blog\source_posts的目录右键新建markdown文件<br>hexo n “我的第一篇文章” #创建新的文章<br>给文件加内容可以用code（或者typora或者用vim)打开文件自己在里面自己写内容<br>然后回到blog目录<br>hexo clean #清理<br>hexo g #生成<br>hexo s  #重新启动一下<br>然后刷新一下4000的那个网站，发现刚才添加的内容出现在网站上就成功了<br>测试成功以后用ctrl+c断开链接，进入github，建立一个仓库 用户名.github.io<br>然后在blog目录右键bash here输入代码<br>cnpm install –save hexo-deployer-git #在blog目录下安装git部署插件<br>使用code打开_config.yml修改配置<br>deploy:<br>type: git<br>repo: <a href="https://github.com/YourGithubName/YourGithubName.github.io.git">https://github.com/YourGithubName/YourGithubName.github.io.git</a><br>branch: master<br>然后部署到远端<br>hexo d    #部署到Github仓库里<br>可能需要输入github账号和密码输入就行了<br>然后复制你的仓库名在浏览器访问能打开就成功了<br><a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a>  #访问这个地址可以查看博客<br>可能还需要ssh公钥配置完就可以了，如何配置参考<a href="https://zhuanlan.zhihu.com/p/44213627">https://zhuanlan.zhihu.com/p/44213627</a><br>下载主题还是在blog目录可能比较慢<br>git clone <a href="https://github.com/litten/hexo-theme-yilia.git">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia  #下载yilia主题到本地<br>下载完成以后会在themes里有个yilia文件<br>继续使用code进入_config.yml修改使用的主题<br>把theme默认的landscape换成yilia<br>hexo clean    #清理一下<br>hexo g    #生成<br>hexo d    #部署到远程Github仓库<br>打开<a href="https://yourgithubname.github.io/">https://YourGithubName.github.io/</a> 刷新几次主题就有了<br>自定义域名我是在阿里云购买的链接：<a href="https://wanwang.aliyun.com/domain/">https://wanwang.aliyun.com/domain/</a><br>购买完把你的域名丢到github里，设置界面里的custom domain里填写你的域名，勾选enforce HTTPS就能生成安全链接了，就可以用自定义的域名进入你的博客了。</p><h2 id="我的学习过程"><a href="#我的学习过程" class="headerlink" title="我的学习过程"></a>我的学习过程</h2><p>因为我git早就安装过学过一点了，然后就在知乎，哔哩哔哩找教程<br>最后学会了域名的自定义，使用主题上传文档等，遇到不懂的或者报错，我选择百度还有参考其他人的教程，花费大概三天时间</p><hr><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>百度，哔哩哔哩，知乎，csdn<br><a href="https://zhuanlan.zhihu.com/p/102592286">https://zhuanlan.zhihu.com/p/102592286</a><br><a href="https://www.bilibili.com/video/BV1Yb411a7ty">https://www.bilibili.com/video/BV1Yb411a7ty</a><br><a href="https://zhuanlan.zhihu.com/p/105715224">https://zhuanlan.zhihu.com/p/105715224</a><br><a href="https://blog.csdn.net/antma/article/details/86104068">https://blog.csdn.net/antma/article/details/86104068</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;需要安装的东西&quot;&gt;&lt;a href=&quot;#需要安装的东西&quot; class=&quot;headerlink&quot; title=&quot;需要安装的东西&quot;&gt;&lt;/a&gt;需要安装的东西&lt;/h2&gt;&lt;p&gt;git, node.js, hexo, code&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;步骤&quot;&gt;&lt;a h</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
