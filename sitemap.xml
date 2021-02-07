@@ -4,7 +4,7 @@
   <url>
     <loc>https://zodnx.com/2021/01/26/%E5%85%B3%E4%BA%8E%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/</loc>
     
-    <lastmod>2021-02-01</lastmod>
+    <lastmod>2021-02-03</lastmod>
     
   </url>
   
@@ -60,57 +60,57 @@
 
   <url>
     <loc>https://zodnx.com/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://zodnx.com/tags/%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/</loc>
-    <lastmod>2021-02-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://zodnx.com/tags/windows/</loc>
-    <lastmod>2021-02-03</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zodnx.com/tags/%E5%88%86%E4%BA%AB/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zodnx.com/tags/git/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zodnx.com/tags/github/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zodnx.com/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zodnx.com/tags/hexo/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <lastmod>2021-02-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zodnx.com/tags/%E6%A1%8C%E9%9D%A2%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2021-02-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zodnx.com/tags/windows/</loc>
+    <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -118,22 +118,22 @@
 
   
   <url>
-    <loc>https://zodnx.com/categories/%E7%BE%8E%E5%8C%96/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <loc>https://zodnx.com/categories/%E8%BD%AF%E4%BB%B6/</loc>
+    <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://zodnx.com/categories/%E5%89%8D%E7%AB%AF/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://zodnx.com/categories/%E8%BD%AF%E4%BB%B6/</loc>
-    <lastmod>2021-02-03</lastmod>
+    <loc>https://zodnx.com/categories/%E7%BE%8E%E5%8C%96/</loc>
+    <lastmod>2021-02-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
