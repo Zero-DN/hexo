@@ -6,8 +6,8 @@
     <content><![CDATA[<h2 id="需要的东西"><a href="#需要的东西" class="headerlink" title="需要的东西"></a>需要的东西</h2><p>sao utils，Wallpaper Engine</p>
 <a id="more"></a>
 
-<h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p><img src="http://qnu56cbyk.hd-bkt.clouddn.com/zm.png" alt="zm"></p>
-<p><img src="http://qnu56cbyk.hd-bkt.clouddn.com/zm2.png" alt="zm2"></p>
+<h2 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h2><p><img src="https://s3.ax1x.com/2021/02/16/ycnmJx.png" alt="zm"></p>
+<p><img src="https://s3.ax1x.com/2021/02/16/ycnbfx.png" alt="zm2"></p>
 <h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><p>sao utils是一个启动器软件，可以选择在官网免费下载，也可以选择在steam上购买下载，Wallpaper Enging是动态壁纸软件，需要在steam上购买下载</p>
 <h2 id="sao-utils使用"><a href="#sao-utils使用" class="headerlink" title="sao utils使用"></a>sao utils使用</h2><p>可以自己配置，也可以使用懒人包，具体参考：<a href="https://www.bilibili.com/video/BV1fJ411F7rY" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1fJ411F7rY</a><br><a href="https://www.bilibili.com/video/BV1V741167yr" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1V741167yr</a></p>
 <h2 id="我的sao-utils配置"><a href="#我的sao-utils配置" class="headerlink" title="我的sao utils配置"></a>我的sao utils配置</h2><p><a href="https://www.jianguoyun.com/p/DW3itkAQmrjyCBichd8D" target="_blank" rel="noopener">https://www.jianguoyun.com/p/DW3itkAQmrjyCBichd8D</a> </p>
@@ -31,15 +31,15 @@
 <p>3、git init # 在此文件夹生成一个.git 隐藏文件</p>
 <p>4、git add . # 将文件添加到缓存区</p>
 <p>5、git commit -m “注释语句”</p>
-<p>6、git remote add origin <a href="mailto:&#103;&#x69;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#x6d;">&#103;&#x69;&#x74;&#64;&#x67;&#105;&#116;&#x68;&#117;&#98;&#x2e;&#99;&#x6f;&#x6d;</a>:你的用户名/你的仓库名.git #github 上创建好的仓库和本地仓库进行关联，在你建立的仓库找到克隆下载复制 ssh 下面的链接，粘贴到 origin 后面</p>
+<p>6、git remote add origin <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#x69;&#116;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#x6d;">&#x67;&#x69;&#x74;&#x40;&#103;&#x69;&#116;&#x68;&#x75;&#98;&#46;&#x63;&#111;&#x6d;</a>:你的用户名/你的仓库名.git #github 上创建好的仓库和本地仓库进行关联，在你建立的仓库找到克隆下载复制 ssh 下面的链接，粘贴到 origin 后面</p>
 <p>7、git pull origin master #如果是空仓库可以直接 push 或者 git pull –rebase origin master 或者 git pull origin master –allow-unrelated-histories</p>
 <p>8、git push origin master #将内容上传至 github</p>
-<h2 id="官网教程"><a href="#官网教程" class="headerlink" title="官网教程"></a>官网教程</h2><p>git init //把这个目录变成 Git 可以管理的仓库<br>git add README.md //文件添加到仓库<br>git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部 add 了<br>git commit -m “first commit” //把文件提交到仓库<br>git remote add origin <a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#x74;&#x68;&#117;&#98;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#x69;&#116;&#64;&#x67;&#x69;&#x74;&#x68;&#117;&#98;&#x2e;&#x63;&#x6f;&#109;</a>:wangjiax9/practice.git //关联远程仓库<br>git push -u origin master //把本地库的所有内容推送到远程库上</p>
+<h2 id="官网教程"><a href="#官网教程" class="headerlink" title="官网教程"></a>官网教程</h2><p>git init //把这个目录变成 Git 可以管理的仓库<br>git add README.md //文件添加到仓库<br>git add . //不但可以跟单一文件，还可以跟通配符，更可以跟目录。一个点就把当前目录下所有未追踪的文件全部 add 了<br>git commit -m “first commit” //把文件提交到仓库<br>git remote add origin <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#111;&#109;">&#x67;&#x69;&#x74;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#99;&#111;&#109;</a>:wangjiax9/practice.git //关联远程仓库<br>git push -u origin master //把本地库的所有内容推送到远程库上</p>
 <h2 id="报错补充"><a href="#报错补充" class="headerlink" title="报错补充"></a>报错补充</h2><p>error: failed to push some refs to ‘github.com:Zero-DN/Zero-ZY.git’<br>解决方法</p>
 <blockquote>
 <p>ｇｉｔ　ｐｕｓｈ　－ｕ　ｏｒｉｇｉｎ　ｍａｓｔｅｒ　－ｆ</p>
 </blockquote>
-<div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=1384026889&auto=0&height=66"></iframe></div>]]></content>
+]]></content>
       <categories>
         <category>前端</category>
       </categories>
@@ -80,7 +80,6 @@
 <h2 id="我的学习过程"><a href="#我的学习过程" class="headerlink" title="我的学习过程"></a>我的学习过程</h2><p>因为我 git 早就安装过学过一点了，然后就在知乎，哔哩哔哩找教程<br>最后学会了域名的自定义，使用主题上传文档等，遇到不懂的或者报错，我选择百度还有参考其他人的教程，花费大概三天时间</p>
 <hr>
 <h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p>百度，哔哩哔哩，知乎，csdn<br><a href="https://zhuanlan.zhihu.com/p/102592286" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/102592286</a><br><a href="https://www.bilibili.com/video/BV1Yb411a7ty" target="_blank" rel="noopener">https://www.bilibili.com/video/BV1Yb411a7ty</a><br><a href="https://zhuanlan.zhihu.com/p/105715224" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/105715224</a><br><a href="https://blog.csdn.net/antma/article/details/86104068" target="_blank" rel="noopener">https://blog.csdn.net/antma/article/details/86104068</a></p>
-<div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=427606780&auto=1&height=66"></iframe></div>
 ]]></content>
       <categories>
         <category>前端</category>
